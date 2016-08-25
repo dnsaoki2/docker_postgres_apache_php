@@ -12,6 +12,6 @@ Usage:
 ======
 - Build or pull the image
 	- docker build -t="image_name" .
-	- docker pull dnsaoki/apache_postgresql_php
+	- docker pull dnsaoki/postgres_apache_php
 - Run
 	- docker run --name [name] -itd -p [port]:80 [image_name]
